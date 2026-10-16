@@ -1,38 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>好きな飲み物</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>喫茶ききらら</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="top">
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="logo" href="#top">喫茶ききらら</a>
 
-<body>
-    <header class="site-header">
-        <h1>Drink Practice</h1>
-        <p>好きな飲み物を紹介します。</p>
-    </header>
-
-    <main>
-        <section class="drink-list">
-            <h2>好きな飲み物</h2>
-
-            <ul>
-                <li>
-                    <strong>☕ コーヒー</strong>
-                    <p>深いりの香ばしさと、程よい苦みが楽しめる定番の一杯です。</p>
-                </li> 
-                <li>
-                    <strong>🫖 紅茶</strong>
-                    <P>華やかな香りが広がり、ほっと一息つきたくなるときのおすすめです。</P>
-                </li>
-                <li>
-                    <strong>🥛 milk</strong>
-                    <P>まろやかで優しい甘み。朝食や夜の読書タイムにぴったりです。</P>
-                </li>
-            </ul>
+                <nav>
+                    <a href="#menu">メニュー</a>
+                    <a href="#about">お店について</a>
+                    <a href="#access">店舗情報</a>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-text">
+<p class="eyebrow">COFFEE &amp; HOMEMADE SWEETS</p>
+        <h1>喫茶ききらら</h1>
+        <p>コーヒーと手作りのお菓子を楽しめる、小さな街のカフェです。</p>
+        <a class="button" href="#menu">メニューを見る</a>
+        </div>
+        <img src="../cafe-sample/cafe-hero.svg" alt="コーヒーとケーキが並ぶカフェのイラスト" class="hero-image">
         </section>
-    </main>
-</body>
+        
+        <section class="menu-section" id="menu">
+        <p class="eyebrow">OUR MENU</p>
+        <h2>おすすめメニュー</h2>
+        <p>毎日のおやつにぴったりな,人気の3品です。</p>
 
+            <div class="card-list">
+                <article class="card">
+                    <span class="card-icon">☕</span>
+                    <h3>ききららブレンド</h3>
+                    <p>香ばしさと優しさの苦みの,飲みやすいオリジナルブレンド。</p>
+                    <p class="price">480円</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">🍮</span>
+                    <h3>昔ながらのプリン</h3>
+                    <p>しっかり固めに焼き上げた、ほろ苦いカラメルのプリン</p>
+                    <p class="price">520円</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">🍰</span>
+                    <h3>季節のケーキ</h3>
+                    <p>旬の果物を使った、季節ごとに変わる手作りケーキ</p>
+                    <p class="price">580円</p>
+                </article>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div>
+                <p class="eyebrow">ABOUT US</p>
+                <h2>ゆっくり過ごせる、街の小さな居場所</h2>
+            </div>
+
+            <p> 
+                喫茶ききららは本を読んだり、友達と話したり、
+                一人でぼんやりしたり。思い思いの時間を過ごせるお店です。
+                木のぬくもりを感じる店内で、心を込めた一杯をお出しします。
+            </p>
+        </section>
+        <section class="access" id="access">
+            <p class="eyebrow">SHOP INFO</P>
+            <h2>店舗情報</h2>
+
+            <dl class="info-list">
+                <div>
+                    <dt>営業時間</dt>
+                    <dd>10:00~18:00</dd>
+                </div>
+
+                <div>
+                    <dt>定休日</dt>
+                    <dd>毎週水曜日</dd>
+                </div>
+
+                <div>
+                    <dt>住所</dt>
+                    <dd>東京都ききらら市1-2-3（学習用の架空住所です）</dd>
+                </div>
+            </dl>
+        </section>
+
+        <footer class="site-footer">
+            <p><strong>喫茶ききらら</strong></p>
+            <p><small>&copy; 2026 Kissaten kikilala</small></P>
+        </footer>
+        
+    </body>
 </html>
